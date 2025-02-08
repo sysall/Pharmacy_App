@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import TabBar from './components/TabBar';
@@ -7,9 +7,12 @@ import Services from './components/tabs/Services';
 import Expertises from './components/tabs/Expertises';
 import Team from './components/tabs/Team';
 import { TabType } from './types';
+import PharmaciesOnGuard from './components/tabs/PharmacieGarde';
+import Promo from './components/tabs/Promo';
 
 function App() {
   const [activeTab, setActiveTab] = useState<TabType>('apercu');
+  
 
   const renderContent = () => {
     switch (activeTab) {
@@ -21,6 +24,10 @@ function App() {
         return <Expertises />;
       case 'equipe':
         return <Team />;
+      case 'pharmacie-de-garde':
+         return <PharmaciesOnGuard />;
+      case 'promos':
+          return <Promo />;
       default:
         return null;
     }

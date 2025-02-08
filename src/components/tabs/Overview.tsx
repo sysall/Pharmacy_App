@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock, Send, ShoppingBag, HelpCircle, Truck } from 'lucide-react';
+import { MapPin, Phone, Clock } from 'lucide-react';
 
 const Overview = () => {
   return (
@@ -34,31 +34,6 @@ const Overview = () => {
         <div className="flex flex-wrap gap-4">
           <button className="bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition-colors">
             NOUS CONTACTER
-          </button>
-          <button className="bg-blue-100 text-blue-500 px-6 py-3 rounded-full hover:bg-blue-200 transition-colors">
-            PRENDRE RENDEZ-VOUS SUR DOCTOLIB
-          </button>
-        </div>
-
-        <div className="space-y-4">
-          <button className="w-full bg-white border rounded-lg p-4 flex items-center space-x-3 hover:bg-gray-50 transition-colors">
-            <Send className="h-6 w-6 text-green-500" />
-            <span className="font-bold">ENVOYER MON ORDONNANCE</span>
-          </button>
-          
-          <button className="w-full bg-white border rounded-lg p-4 flex items-center space-x-3 hover:bg-gray-50 transition-colors">
-            <ShoppingBag className="h-6 w-6 text-green-500" />
-            <span className="font-bold">JE RÉSERVE MES PRODUITS</span>
-          </button>
-          
-          <button className="w-full bg-white border rounded-lg p-4 flex items-center space-x-3 hover:bg-gray-50 transition-colors">
-            <HelpCircle className="h-6 w-6 text-green-500" />
-            <span className="font-bold">POSER UNE QUESTION</span>
-          </button>
-          
-          <button className="w-full bg-white border rounded-lg p-4 flex items-center space-x-3 hover:bg-gray-50 transition-colors">
-            <Truck className="h-6 w-6 text-green-500" />
-            <span className="font-bold">ME FAIRE LIVRER</span>
           </button>
         </div>
       </div>

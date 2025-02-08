@@ -14,7 +14,6 @@ const TabBar = ({ activeTab, setActiveTab }: TabBarProps) => {
             { id: 'apercu', label: 'Aperçu' },
             { id: 'services', label: 'Services' },
             { id: 'expertises', label: 'Expertises' },
-            { id: 'actualites', label: 'Actualités' },
             { id: 'promos', label: 'Promos' },
             { id: 'equipe', label: 'Equipe' },
             { id: 'pharmacie-de-garde', label: 'Pharmacie de garde' },

@@ -5,3 +5,23 @@ export interface TeamMember {
   role: string;
   imageUrl: string;
 } 
+
+export interface PharmacyGuard {
+  name: string;
+  address: string;
+  city: string;
+  phone: string;
+  hours: string;
+  distance: string;
+}
+
+export interface PromoProduct {
+  id: number;
+  name: string;
+  brand: string;
+  description: string;
+  price: number;
+  validFrom: string;
+  validTo: string;
+  imageUrl: string;
+}

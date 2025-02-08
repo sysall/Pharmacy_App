@@ -11,8 +11,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       <div className="absolute bottom-0 left-0 right-0 p-8">
         <div className="max-w-7xl mx-auto">
-          <p className="text-gray-300 mb-2">Villeurbanne</p>
-          <h1 className="text-4xl font-bold text-white mb-4">Pharmacie Grandclément</h1>
+          <p className="text-gray-300 mb-2">Dakar</p>
+          <h1 className="text-4xl font-bold text-white mb-4">Pharmacie Serigne Fadilou Mbacké</h1>
         </div>
       </div>
     </div>
