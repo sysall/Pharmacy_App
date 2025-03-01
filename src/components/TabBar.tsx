@@ -16,7 +16,7 @@ const TabBar = ({ activeTab, setActiveTab }: TabBarProps) => {
             { id: 'expertises', label: 'Expertises' },
             { id: 'promos', label: 'Promos' },
             { id: 'equipe', label: 'Equipe' },
-            { id: 'pharmacie-de-garde', label: 'Pharmacie de garde' },
+            { id: 'actualité', label: 'Actualité' }
           ].map(({ id, label }) => (
             <button
               key={id}
